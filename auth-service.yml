@@ -16,8 +16,8 @@ eureka:
     preferIpAddress: true
   client:
     serviceUrl:
-      defaultZone: http://eurekaregistry:8761/eureka/	  
-	  
+      defaultZone: http://eurekaregistry:8761/eureka/
+
 security:
   user:
     password: password
