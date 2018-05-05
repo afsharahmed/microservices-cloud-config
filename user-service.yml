@@ -1,0 +1,18 @@
+server:
+  port: 8081
+  contextPath: /user-service
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+# Note that we will use the JWT token to get user data
+security:
+  oauth2:
+    resource:
+      jwt:
+        keyValue: |
+          -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArKyPuETRdRKAaRfoPtaWbYGcXnv9kJ8Ws6HTaKqwTvU3uh+FWSxI15uioAAGBbfZrVIxHjyICMYS8g/9dNfhXelZZoezuH+u3OsND6IStoG4Oydz+/ERN9mKFk92eCg0OfBmniH/GQPBfa1GqYHRWBOSzyBMpu532I6GsL4dsMS+/BOwOu+bQrxBFh6I2z0jO36r4O1yKV7OKRDxEMR2X7u4S7UPFmbRop306utd1gYUYkUhzyCkom5Ut5FFkWEmXobZRv7ZkY1kZvA5y3rZClW3hflw17zAl5qgfBxSRs4Xi9c2zKzUhbp6h9wbOrM0K4Ve147Tlmogj22tyQb/zwIDAQAB
+          -----END PUBLIC KEY-----
