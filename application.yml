@@ -1,1 +1,3 @@
-mail:  domain: gmail.comapplication:  owner:    name: Afshar Ahmed
+application:
+  owner:
+    name: Afshar Ahmed
