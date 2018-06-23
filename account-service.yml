@@ -34,5 +34,6 @@ logging:
     org:
       springframework:
         security: INFO
+# host-name 'TRANSACTION-SERVICE' is case in-sensitive
 #transaction-service-url: http://TRANSACTION-SERVICE:8082/transaction-service/transaction/
 transaction-service-url: http://TRANSACTION-SERVICE/transaction-service/transaction/
