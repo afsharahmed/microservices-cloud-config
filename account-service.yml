@@ -34,5 +34,5 @@ logging:
     org:
       springframework:
         security: INFO
-#transaction-service-url: http://TRANSACTION-SERVICE:8082/transaction-service/transaction/%s
-transaction-service-url: http://TRANSACTION-SERVICE/transaction-service/transaction/%s
+#transaction-service-url: http://TRANSACTION-SERVICE:8082/transaction-service/transaction/
+transaction-service-url: http://TRANSACTION-SERVICE/transaction-service/transaction/
